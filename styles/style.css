@@ -1,8 +1,29 @@
-section{
-  margin: 1rem auto;
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.footer a{
-  color: #fff;
-  font-size: 1.4rem;
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "Oswald", sans-serif;
+}
+.navbar.name{
+  font-weight: 700;
+  font-size: 2rem;
+  display: inline-block;
+}
+.navbar ul{
+  text-align: right;
+  float: right;
+}
+.navbar ul li{
+  display: inline-block;
+  padding: 1rem,1rem;
 }
