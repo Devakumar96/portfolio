@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Pacifico&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+html{
+  font-size: 16px;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+li{
+  list-style: none;
+}
+body{
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+.navbar{
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.navbar .nav-left h2{
+  font-family: 'Pacifico', cursive;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  font-size: 2rem;
+  cursor: pointer;
+}

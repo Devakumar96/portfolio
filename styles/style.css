@@ -90,27 +90,6 @@ img{
     cursor: pointer;
 }
 
-
-/* Mobile Menu */
-
-/* .nav {
-  display: block;
-}
-
-.nav {
-  position: fixed;
-  z-index: 999;
-  width: 66%;
-  right: 0;
-  top: 0;
-  background-color: #20272e;
-  padding: 1rem;
- height: 100vh;
-} */
-
-
-/* Objective */
-
 .objective {
     text-align: center;
     margin-bottom: 3rem;
